@@ -226,4 +226,11 @@ result = cv2.addWeighted(image, 1, unwarped, 0.3, 0)
 
 ## Test On Video
 
+* [challenge_video_output.mp4](https://github.com/liangtaohy/CarND-Advanced-Lane-Lines/tree/master/challenge_video_output.mp4)
 * [project_video_output.mp4](https://github.com/liangtaohy/CarND-Advanced-Lane-Lines/tree/master/project_video_output.mp4)
+
+## Known Problem
+
+There are bad lines in challenge video. lane line searching got none pixels from some frames.
+
+I think historical frames maybe be useful for the problems.
